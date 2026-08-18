@@ -1,0 +1,19 @@
+{
+  "name": "LaTeX Paper (TeX Live + Claude Code)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "James-Yu.latex-workshop",
+        "anthropic.claude-code"
+      ],
+      "settings": {
+        "latex-workshop.latex.outDir": "%DIR%",
+        "latex-workshop.view.pdf.viewer": "tab"
+      }
+    }
+  }
+}
