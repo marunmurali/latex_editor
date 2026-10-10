@@ -1,3 +1,10 @@
+# Ignore everything: paper projects (Overleaf clones) live here as their own
+# nested git repos and must never be committed to this repository.
 /*
+
+# Only the workspace itself is tracked.
 !/.devcontainer/
 !/.gitignore
+!/README.md
+!/CLAUDE.md
+!/LICENSE
